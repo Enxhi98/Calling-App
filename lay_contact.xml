@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This layout is used to store the contents received from input into 3 different text fields -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This text field stores the name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactName"
+        android:textSize="20dp"/>
+
+    <!-- This text field stores the number -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactNumber"
+        android:textSize="20dp"/>
+
+    <!-- This text field stores the company -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactCompany"
+        android:textSize="20dp"/>
+
+
+<!-- End of layout -->
+</LinearLayout>

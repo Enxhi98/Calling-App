@@ -1,0 +1,30 @@
+<resources>
+    <!-- Declaration of all the strings used-->
+    <string name="app_name">Sample</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="star">*</string>
+    <string name="hashTag">#</string>
+    <string name="X">X</string>
+    <string name="hint">Enter the Number</string>
+    <string name="dial">Dial</string>
+    <string name="contacts">Contacts</string>
+    <string name="editName">Name</string>
+    <string name="editNumber">Number</string>
+    <string name="editCompany">Company</string>
+    <string name="save">Save</string>
+    <string name="backButton">Back</string>
+    <string name="details_name">Name details</string>
+    <string name="details_number">Number</string>
+    <string name="details_company">Company</string>
+    <string name="buttonCall1">Call</string>
+
+</resources>

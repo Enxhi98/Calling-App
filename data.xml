@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This layout is used on "Data" class and contains 3 different input fields and a button -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearData">
+
+    <!-- Input field for name -->
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="56dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+    <!-- Input field for number -->
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp"
+        android:hint="Number"
+        android:inputType="number"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+    <!-- Input field for company -->
+    <EditText
+        android:id="@+id/editCompany"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="216dp"
+        android:hint="Company"
+        android:inputType="text"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+    <!-- "Save" button and its characteristics -->
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Save"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
